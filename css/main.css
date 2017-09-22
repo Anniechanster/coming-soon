@@ -1,0 +1,59 @@
+html {
+  font-family: 'Satisfy', cursive;
+  color: #000;
+  background-color: #fff;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-content {
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+h2 {
+  color: black;
+}
+
+.slogan-content {
+  color: #000;
+}
+
+.slogan {
+  position: relative;
+}
+
+.btncontent {
+  text-align: left;
+}
+
+.font {
+  font-family: 'Cabin Condensed', sans-serif;
+}
+
+@media only screen and (min-width: 35em) {
+
+  .slogan-content {
+    bottom: 0;
+    position: absolute;
+    text-align: right;
+    color: #fff;
+
+    background-color: transparent;
+
+  }
+
+  h2 {
+    color: #fff;
+  }
+
+}
